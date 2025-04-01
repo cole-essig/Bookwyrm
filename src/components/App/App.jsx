@@ -1,12 +1,17 @@
 import { useState } from 'react'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <div className='page'>
+      <div className='page__content'>
+        <Routes>
+          <h1>Hello World!</h1>
+        </Routes>
+      </div>
+    </div>
   )
 }
 
