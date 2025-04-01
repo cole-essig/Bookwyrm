@@ -8,7 +8,14 @@ function App() {
     <div className='page'>
       <div className='page__content'>
         <Routes>
-          <h1>Hello World!</h1>
+          <Route 
+            path='/'
+            element={
+              <>
+                <h1>Hello World!</h1>
+              </>
+            }
+          />
         </Routes>
       </div>
     </div>
