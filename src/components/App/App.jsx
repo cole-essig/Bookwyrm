@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Route, Routes, Navigate } from 'react-router-dom'
-import viteLogo from '/vite.svg'
+import Header from '../Header/Header'
 import './App.css'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
             path='/'
             element={
               <>
-                <h1>Hello World!</h1>
+                <Header />
               </>
             }
           />
