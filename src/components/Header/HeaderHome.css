@@ -48,7 +48,7 @@
   display: flex;
   position: absolute;
   top: 240px;
-  left: 740px;
+  left: 760px;
   max-width: 160px;
   width: 100%;
   min-height: 160px;
@@ -65,7 +65,7 @@
   display: flex;
   position: absolute;
   top: 240px;
-  left: 940px;
+  left: 960px;
   max-width: 160px;
   width: 100%;
   min-height: 160px;
@@ -83,7 +83,7 @@
   border: none;
   z-index: 2;
   top: 245px;
-  left: 745px;
+  left: 765px;
   background-color: #1c2541;
 }
 
@@ -92,7 +92,7 @@
   border: none;
   z-index: 2;
   top: 245px;
-  left: 945px;
+  left: 965px;
   background-color: #1c2541;
 }
 
@@ -100,4 +100,10 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: 600;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.header__bubble_text:hover {
+  transform: translateY(-4px);
+  text-shadow: 0 0 8px #1c2541;
 }

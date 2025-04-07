@@ -1,0 +1,28 @@
+.footer__form {
+  display: flex;
+  flex-direction: row;
+  max-width: 420px;
+  width: 100%;
+  min-height: 30px;
+}
+
+.footer__input {
+  max-width: 75%;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 10px;
+  border: solid 2px #5bc0be;
+}
+
+.footer__button {
+  max-width: 18%;
+  width: 100%;
+  margin: 0 0 0 auto;
+  border: solid 2px #000;
+  background-color: #ffb947;
+  color: #1c2541;
+}
+
+.footer__button:hover {
+  box-shadow: 0 0 10px 5px #ffb947;
+}

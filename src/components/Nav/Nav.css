@@ -48,7 +48,7 @@
 .nav__button_join {
   border: solid 2px #000;
   background-color: #1c2541;
-  color: #d81159;
+  color: #5bc0be;
   font-size: 22px;
   line-height: 1.2;
   font-weight: 600;
@@ -88,8 +88,10 @@
   font-weight: 800;
   margin: 0;
   border-radius: 12%;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .nav__link:hover {
-  box-shadow: 0 0 10px 5px #ffb947;
+  transform: translateY(-4px);
+  text-shadow: 0 0 8px #ffb947;
 }
