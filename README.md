@@ -53,4 +53,4 @@ git push origin feature-name
 
 # Contact
 
-Send me message in github or email me at cole2essig3@gmail.com
+Send me message in github or email me at colepessig@gmail.com
